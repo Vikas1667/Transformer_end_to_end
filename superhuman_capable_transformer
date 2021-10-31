@@ -1,0 +1,46 @@
+### Transformer blocks
+
+
+
+#### Encoder Block
+
+1) Self Attention Block: Good at modeling dependency between
+different parts of sentence.Dependency can be syntatic or coreferences.
+
+
+    https://towardsdatascience.com/illustrated-self-attention-2d627e33b20a
+
+    Need of Multi head Attention?
+    Attention is not computed once as there is no single attention pattern helps in some
+    cases, but there could be multiple attention patterns computed at same time.
+
+2) Feed Forward Neural Network Block
+
+#### Decoder Block
+1) Self Attention Block
+
+2) Encoder-Decoder Attention Block
+
+3) Feed Forward Neural Network Block
+
+
+
+Why Transformer has more strength
+ 1) Parallelism: All operations in parallel i.e Input sequence
+ is passed in parallel
+
+
+Need of Positional Embedding
+
+positional encoder: vector that gives context based on position of input word
+in sentence
+Permutation Invariant:If change order of words
+the transformer will be invariant to those changes
+ie.Exact same output if we change the order of words
+
+Need of Masked multi headed attention
+
+If we are going to use all word in output it will no learning
+First output element of decoder only had access to first element
+similarly second element only had access to first and second element input to decoder_inputs
+
