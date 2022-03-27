@@ -1,10 +1,32 @@
+ ## Transformers 
+ We seen after "Attention Is All You Need" is introduced Transformers
+ became state of the art in NLP.They are used in many applications 
+ like Machine language translation, Text Summarization, NER, Chatbot and last but not least to extremely
+ empower the search engine with semantic capabilities.As transformer can able to 
+ outperform RNN, GRU and LSTM? also may heard of GPT, BERT different famous transformer models.
+   
+ 
  ## Architecture 
+ Lets start with architecture and different components used to build extremely powerful
+ mechanism.
+ 
  ![Alt text](./images/transformer_architecture.png?raw=true "cummalive plot")
+ 
+ We can see different architecture components are stated below.
+ 1) Input Embedding
+  It is a lookup table to grab a learned vector representations of each word. 
+  
+ 2) Positional Encoding:
+ It is position wise encoding of input to add information about position in input embedding.
+ 
+ 3) Encoder Layer:
+ 
  
  ## Feature based Attention: Key,Value and Query 
  
  Key-value-query concepts come from information retrieval systems. I found it extremely helpful to clarify these concepts first.
  When you search (query) for a particular video, the search engine will map your query against a set of keys (video title, description, etc.) associated with possible stored videos. Then the algorithm will present you the best-matched videos (values). This is the foundation of content/feature-based lookup.
+ 
  
  ![Alt text](./images/attention-as-database-query.png?raw=true "cummalive plot")
  

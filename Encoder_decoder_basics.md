@@ -1,11 +1,10 @@
 ## Transformer_end_to_end
-### Basics of Transformers 
- [Introduction](##Introduction)
- 
+
+### Transformers Foundation
+
  ##Introduction
- In this we will be covering basics of Transformers Architecture and Implementations of required 
- components.As we seen “Attention is all you need” changed the 
- ways of providing strength to NLP complex problems.
+ In this section we will be covering basics of Encoder Decoder with  Transformers architecture and Implementations of required 
+ components.
  
  As RNN is taking sequences and thus needs previous hidden outputs, we goes 
  on stacking we can able to get better results but as we goes on 
@@ -13,8 +12,9 @@
  long term dependency problem. 
  
  Transformers came out to be very ideal level capabilities with 
- Encoder and Decoder Implementations.So dealing with such Architecture
+ Encoder and Decoder implementations with attention mechanism.So dealing with such Architecture
  Tensorflow and Pytorch became user's likely framework.
+ 
  
  ## Encoder Decoder 
  
@@ -125,7 +125,7 @@ def preprocess_sentence(w):
 ```
 
 
-As we see alots of steps is to be carried out 
+As we see a lots of steps is to be carried out 
 
 
 
