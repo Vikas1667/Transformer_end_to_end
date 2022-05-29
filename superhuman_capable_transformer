@@ -7,7 +7,6 @@
 1) Self Attention Block: Good at modeling dependency between
 different parts of sentence.Dependency can be syntatic or coreferences.
 
-
     https://towardsdatascience.com/illustrated-self-attention-2d627e33b20a
 
     Need of Multi head Attention?
