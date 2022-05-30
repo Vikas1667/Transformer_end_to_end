@@ -10,9 +10,9 @@
  Lets start with architecture and different components used to build extremely powerful
  mechanism.
  
- ![Alt text](./images/transformer_architecture.png?raw=true "cummalive plot")
+ ![Alt text](./images/transformer_architecture1.png)
  
- We can see different architecture components are stated below.
+ We can see different architecture components are stated below we will go in detail.
  1) Input Embedding
   It is a lookup table to grab a learned vector representations of each word. 
   
@@ -20,6 +20,23 @@
  It is position wise encoding of input to add information about position in input embedding.
  
  3) Encoder Layer:
+ The encoding component is a stack of encoders
+ 
+ 4) Decoder Layer:
+ The decoding component is a stack of decoders of the same number.
+
+ 
+ Highlevel working in detail [here](https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html)
+ ![transformer](./images/transform20fps.gif)
+ 
+ Alot of Questions arises when we try to understand Transformers will dive details
+ 
+ 
+ ## what is use of encoder decoder attention?
+ It helps the decoder focus on appropriate places in the input sequence
+ 
+ ## What is input to decoder attention?
+ it creates its Queries matrix from the layer below it, and takes the Keys and Values matrix from the output of the encoder stack.
  
  
  ## Feature based Attention: Key,Value and Query 

@@ -1,5 +1,14 @@
-### Transformer blocks
+Transformers Need and why they are efficient
+Neural networks usually process language by generating fixed- or variable-length vector-space representations.
+After starting with representations of individual words or even pieces of words, they aggregate information
+from surrounding words to determine the meaning of a given bit of language in context
 
+RNN works to take information
+
+[refer here in detail explanation](https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html)
+
+
+### Transformer blocks
 
 
 #### Encoder Block
@@ -42,4 +51,5 @@ Need of Masked multi headed attention
 If we are going to use all word in output it will no learning
 First output element of decoder only had access to first element
 similarly second element only had access to first and second element input to decoder_inputs
+
 
